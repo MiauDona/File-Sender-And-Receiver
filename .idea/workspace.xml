@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7906f7e-ebea-4822-95c8-e61f251fe99c" name="Changes" comment="Corrected some bugs, created Main and almost finished server">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Messager.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f7906f7e-ebea-4822-95c8-e61f251fe99c" name="Changes" comment="Changed whole project. Now is a file-sender and receiver.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Messager.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/main/miau/dona/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/miau/dona/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/main/miau/dona/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/miau/dona/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/main/miau/dona/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/miau/dona/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/miau/dona/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/miau/dona/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,13 +136,22 @@
       <option name="project" value="LOCAL" />
       <updated>1694738668589</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed whole project. Now is a file-sender and receiver.">
+      <option name="closed" value="true" />
+      <created>1694796986515</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694796986515</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Full client messagery complete and part of server" />
     <MESSAGE value="Corrected some bugs, created Main and almost finished server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected some bugs, created Main and almost finished server" />
+    <MESSAGE value="Changed whole project. Now is a file-sender and receiver." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed whole project. Now is a file-sender and receiver." />
   </component>
 </project>
