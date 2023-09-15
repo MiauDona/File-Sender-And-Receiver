@@ -15,6 +15,9 @@ public class Client {
 
                BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in)); // Envia lo que el usuario escribe en la consola
                String message;
+               while ((message = userInput.readLine()) != null) {
+                   out.println(message); // Printea el mensaje del usuario
+               }
 
 
 

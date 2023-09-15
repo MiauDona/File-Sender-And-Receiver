@@ -15,7 +15,7 @@ public class Server {
         try (ServerSocket serverSocket = new ServerSocket(38528)) { // Abre el puerto en el servidor
             while (true) { // Deja en escucha el puerto y da la opcion de aceptar o rechazar la peticion
                 Socket clientSocket = serverSocket.accept();
-                int result = JOptionPane.showOptionDialog(null, "Message", "Title", JOptionPane.OK_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
+                int result = JOptionPane.showOptionDialog(null, "Quieres que el cliente" + clientSocket.getInetAddress().getHostAddress() + "se conecte?", "Esperando conexion...", JOptionPane.OK_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
 
                 if (result == JOptionPane.OK_OPTION) {
                     JOptionPane.showMessageDialog(null, "El cliente se ha conectado desde: " + clientSocket.getInetAddress().getHostAddress(), "Conexion realizada", JOptionPane.PLAIN_MESSAGE);
@@ -24,8 +24,9 @@ public class Server {
 
                     String message;
                     while ((message = in.readLine()) != null) {
-
+                        out.println("Server received: " + message); // Printea el mensaje del cliente
                     }
+                        // TODO: Hay que hacer que el servidor pueda enviar mensajes
 
                     in.close();
                     clientSocket.close();
@@ -34,10 +35,6 @@ public class Server {
                     clientSocket.close();
                 }
             }
-
-
-
-
 
         } catch (IOException e) {
             throw new RuntimeException(e);
